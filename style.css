@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e3f2fd; /* Azul bem clarinho para o fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estilização do Card */
+.card {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-top: 8px solid #1976d2; /* Detalhe em azul mais escuro */
+}
+
+/* Títulos */
+h1 {
+    color: #0d47a1;
+    margin-bottom: 5px;
+    font-size: 2.2rem;
+}
+
+h2 {
+    color: #1976d2;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border-bottom: 2px solid #bbdefb;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Textos */
+p {
+    color: #444;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+/* Estilização da Imagem */
+img {
+    border-radius: 50%; /* Deixa a foto redonda */
+    border: 4px solid #1976d2;
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+    width: 175px;
+    height: 200px;
+
+}
+
+img:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+/* Informação de Contato */
+.card p:last-child {
+    font-weight: bold;
+    color: #1976d2;
+    background-color: #e3f2fd;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+}
